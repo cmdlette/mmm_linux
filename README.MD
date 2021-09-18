@@ -4,6 +4,8 @@ A collection of commands to get Minimal Manjaro set up for a mix of productivity
 # Notes about structure
 To keep things readable for myself (and anyone else who snags this), I broke everything down into categories like utilities, dependencies for various programs, and finally the apps themselves.
 
+There's also a point when installing utilities that will allow you to choose one or more components for base-devel. Default is to install all when pressing enter. Do what's best (or, more realistically, easiest) for your own purposes.
+
 # Known app issues and fixes
 0. Discord can sometimes freeze up in Manjaro, and it's usually because the system is missing a notification daemon. I included notify-osd and dunst, which have both been reliable for me to fix the lockups. When notification daemons don't help, reinstalling wine-staging does.
 
@@ -11,6 +13,7 @@ To keep things readable for myself (and anyone else who snags this), I broke eve
 
 # BNET in Lutris requires some extra setup steps
 In winetricks, create a prefix named win32. Then enter the win32 prefix to:
+  
   0. Run winecfg and set Windows 10 as the Applications tab Windows Version and check all boxes in the Staging tab
   1. Install ie8 from the Install a Windows DLL or component option
   2. Install corefonts from the Install a font option
