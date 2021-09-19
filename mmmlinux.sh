@@ -6,7 +6,7 @@
 sudo pacman -Syu
 
 # utilities
-sudo pacman -S yay zsh wine wine-mono wine-gecko wine-staging winetricks python python-pip git snapd binutils base-devel webkit2gtk
+sudo pacman -S yay zsh neofetch wine wine-mono wine-gecko wine-staging winetricks python python-pip git snapd binutils base-devel webkit2gtk
 
 # get zsh autosuggestions and highlighting
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
